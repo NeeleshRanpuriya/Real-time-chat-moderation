@@ -1,0 +1,35 @@
+# Sample Toxic Comments Dataset
+# Based on Jigsaw Toxic Comment Classification Challenge
+# Source: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
+
+id,comment_text,toxic,severe_toxic,obscene,threat,insult,identity_hate
+1,"You are an idiot",1,0,0,0,1,0
+2,"This is a great discussion, thanks for sharing!",0,0,0,0,0,0
+3,"Shut up you stupid moron",1,1,0,0,1,0
+4,"I disagree with your point, but I respect your opinion",0,0,0,0,0,0
+5,"Go kill yourself",1,1,0,1,1,0
+6,"This is absolutely terrible work",1,0,0,0,1,0
+7,"Could you please explain your reasoning?",0,0,0,0,0,0
+8,"You're all a bunch of losers",1,0,0,0,1,0
+9,"I appreciate your perspective on this matter",0,0,0,0,0,0
+10,"What a dumb idea",1,0,0,0,1,0
+11,"Thank you for contributing to the discussion",0,0,0,0,0,0
+12,"I'll destroy you if you don't stop",1,1,0,1,1,0
+13,"This makes sense, let me think about it",0,0,0,0,0,0
+14,"You're pathetic and nobody likes you",1,0,0,0,1,0
+15,"Can we have a civil conversation about this?",0,0,0,0,0,0
+16,"Stop being such a crybaby",1,0,0,0,1,0
+17,"I'm learning a lot from this thread",0,0,0,0,0,0
+18,"Delete your account immediately",1,0,0,1,1,0
+19,"What an interesting observation!",0,0,0,0,0,0
+20,"You should be ashamed of yourself",1,0,0,0,1,0
+21,"I'd love to hear more about your experience",0,0,0,0,0,0
+22,"Nobody asked for your stupid opinion",1,0,0,0,1,0
+23,"This is a thoughtful analysis",0,0,0,0,0,0
+24,"Get out of here with that nonsense",1,0,0,0,1,0
+25,"I'm curious about your methodology",0,0,0,0,0,0
+26,"You're wasting everyone's time",1,0,0,0,1,0
+27,"Great job on this project!",0,0,0,0,0,0
+28,"I hope something bad happens to you",1,0,0,1,1,0
+29,"Let's work together to find a solution",0,0,0,0,0,0
+30,"This is complete garbage",1,0,0,0,1,0
