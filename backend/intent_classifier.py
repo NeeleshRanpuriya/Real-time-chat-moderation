@@ -25,9 +25,21 @@ class IntentClassifier:
                 r"(disappointed|frustrated|angry|annoyed)",
             ],
             "insult": [
-                r"(stupid|idiot|dumb|fool|moron|loser|pathetic)",
+               r"(stupid|idiot|dumb|fool|moron|loser|pathetic)",
                 r"(shut up|get lost|screw you)",
                 r"(nobody cares|no one asked|nobody asked)",
+                   # Hindi gaali
+                r"(chutiya|madarchod|bhosdike|bhenchod|gandu|harami|kutta|saala|kamina)",
+                # Ye regex dhoondega 'c' aur 'a' ke beech mein kuch bhi symbols
+                r"ch[@#*a-z]*tiy[a-z]*", 
+                r"m[@#*a-z]*d[@#*a-z]*rch[@#*a-z]*d",
+                r"b[@#*a-z]*hc[@#*a-z]*d",
+                r"g[@#*a-z]*ndu",
+                r"(mc|bc|bsdk|bkl|lodu)", # Short forms
+    
+                  # Hindi shortcuts
+                 r"(mc|bc|mkc|bkl|bsdk|lodu|chomu|tmkc|tmmkc|teri mkc|teri maa)",
+                
             ],
             "threat": [
                 r"(i'll|ill|gonna|going to).*(kill|hurt|destroy|ruin|attack)",
@@ -45,7 +57,15 @@ class IntentClassifier:
             ],
             "neutral": [],  # Default fallback
         }
+    def normalize_text(text: str) -> str:
+    # 1. Sabhi symbols (@, #, *, $, !) ko remove karein
+     clean_text = re.sub(r"[@#*$!]", "", text)
     
+    # 2. Common replacements handle karein (Optional)
+    # Agar user 'ch@tiya' likhta hai toh cleaning ke baad woh 'chtiya' ban jayega
+    # Jo ki niche wale fuzzy regex se match ho jayega
+     return clean_text.lower()
+        
     def classify(self, text: str) -> Tuple[str, float]:
         """
         Classify intent of the message
