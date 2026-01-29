@@ -126,7 +126,7 @@ npm run dev
 ![Chat Interface](screenshots/Chat_Interface.png)
 
 ###3. **Real-Time Analysis Panel**
-![Real-Time Analysis Panel](screenshots/Real_Time_Analysis_Panel.png)
+![Real-Time Analysis Panel](screenshots/RealTime_Analysis_Panel.png)
 
 ### API
 - REST
