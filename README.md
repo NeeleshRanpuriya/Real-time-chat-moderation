@@ -149,7 +149,10 @@ npm run dev
 ### Contact
 
 **Neelesh Ranpuriya**
+- Github: https://github.com/NeeleshRanpuriya
 - Email: Neeleshranpuriya@gmail.com
+- Linkedin: www.linkedin.com/in/neelesh-ranpuriya-0920512b2
+  
 
 
 
