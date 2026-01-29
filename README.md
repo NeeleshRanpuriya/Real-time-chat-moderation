@@ -112,7 +112,7 @@ npm run dev
 - WebSocket
 - ws://localhost:8000/ws/{username}
 
-###Future Enhancements
+### Future Enhancements
 
 - User authentication
 - Admin dashboard
@@ -120,7 +120,7 @@ npm run dev
 - Profanity filter
 - Export chat logs
 
-###Contact
+### Contact
 
 **Neelesh Ranpuriya**
 - Email: Neeleshranpuriya@gmail.com
