@@ -81,6 +81,7 @@ webapp/
 ├── backend/
 ├── frontend/
 ├── datasets/
+├── screenshots/
 ├── docs/
 └── README.md
 ```
@@ -122,10 +123,10 @@ npm run dev
 ### 1. **Home Page**
 ![Home Page](screenshots/HOME_PAGE.png)
 
-###2. **Chat Interface**
+### 2. **Chat Interface**
 ![Chat Interface](screenshots/Chat_Interface.png)
 
-###3. **Real-Time Analysis Panel**
+### 3. **Real-Time Analysis Panel**
 ![Real-Time Analysis Panel](screenshots/RealTime_Analysis_Panel.png)
 
 ### API
