@@ -27,7 +27,7 @@ This project helps maintain healthy conversations by:
 
 ---
 
-##  Tech Stack  
+##  Tech Stack 
 
 ### Backend  
 - FastAPI  
@@ -48,6 +48,32 @@ This project helps maintain healthy conversations by:
 - Axios  
 
 ---
+## 📊 Dataset Details  
+
+This project uses a mix of public and custom datasets for training and testing.
+
+### 1. Toxic Comment Dataset  
+**Source:** Jigsaw / Conversation AI (Kaggle)  
+**Purpose:** Used for toxicity detection.
+
+🔗 Download:  
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data  
+
+---
+
+### 2. Intent Classification Dataset (Custom)  
+**File:** `datasets/intent_classification.csv`  
+**Purpose:** Classifies user intent (question, insult, threat, etc.)
+
+---
+
+### 3. Polite Rewrite Dataset (Custom)  
+**File:** `datasets/polite_rewrites.csv`  
+**Purpose:** Generates polite alternatives for toxic messages.
+
+---
+
+### Folder Structure
 
 ## 📁 Project Structure  
 ```
